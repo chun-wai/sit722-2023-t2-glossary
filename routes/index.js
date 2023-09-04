@@ -65,6 +65,66 @@ const glossaryList = [
     term: 'OpenFaaS',
     description: "OpenFaaS is an open-source serverless framework that operates on top of Kubernetes. It enables developers to deploy event-driven functions without managing server infrastructure. OpenFaaS abstracts the complexities of scaling, resource management, and event handling, allowing developers to focus solely on writing and deploying code.",
     reference: "Jansen, M., Wagner, L., Trivedi, A., & Iosup, A. (2023). Continuum: Automate Infrastructure Deployment and Benchmarking in the Compute Continuum. Companion of the 2023 ACM/SPEC International Conference on Performance Engineering, 181–188."
+  },
+  {
+    id: 41,
+    term: 'Continuous Monitoring',
+    description: "Continuous Monitoring is the practice of regularly and automatically observing the performance and health of a software system to detect issues or anomalies in real-time.",
+    reference: "Gupta, M., Sanjana, K., Akhilesh, K., & Chowdary, M. N. (2021). Deployment of multi-tier application on cloud and continuous monitoring using kubernetes. 2021 5th International Conference on Electrical, Electronics, Communication, Computer Technologies and Optimization Techniques (ICEECCOT), 602–607."
+  },
+  {
+    id: 42,
+    term: 'Release Pipeline',
+    description: "A Release Pipeline is a series of automated steps and stages that code goes through, from development to deployment. It includes building, testing, and deploying code changes in a controlled and repeatable manner.",
+    reference: "Shahin, M., Ali Babar, M., & Zhu, L. (2017). Continuous integration, delivery and deployment: A systematic review on approaches, tools, challenges and practices. IEEE Access: Practical Innovations, Open Solutions, 5, 3909–3943. https://doi.org/10.1109/access.2017.2685629"
+  },
+  {
+    id: 43,
+    term: 'Latency',
+    description: "Latency refers to the delay in data transmission between a source and a receiver in a network or system, often measured in milliseconds.",
+    reference: "Wang, Z., Gao, F., & Jin, X. (2020). Optimal deployment of cloudlets based on cost and latency in Internet of Things networks. Wireless Networks, 26(8), 6077–6093. https://doi.org/10.1007/s11276-020-02418-9"
+  },
+  {
+    id: 44,
+    term: 'Load Balancing',
+    description: "Load Balancing is the process of distributing network traffic across multiple servers or instances to ensure even distribution of workload, enhance performance, and improve fault tolerance.",
+    reference: "Jafarnejad Ghomi, E., Masoud Rahmani, A., & Nasih Qader, N. (2017). Load-balancing algorithms in cloud computing: A survey. Journal of Network and Computer Applications, 88, 50–71. https://doi.org/10.1016/j.jnca.2017.04.007"
+  },
+  {
+    id: 45,
+    term: 'Service Catalog',
+    description: "A Service Catalog is a directory of available IT services and resources, often used in self-service provisioning.",
+    reference: "Profeta, D., Masi, N., Messina, D., Dalle Carbonare, D., Bonura, S., & Morreale, V. (2019). A novel micro-service based platform for composition, deployment and execution of BDA applications. 2019 45th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), 182–185."
+  },
+  {
+    id: 46,
+    term: 'Failover',
+    description: "Failover is the automatic switching to a backup system or resource when the primary system fails or becomes unavailable.",
+    reference: "Dharam, P., & Dey, M. (2021). A mechanism for controller failover in distributed software-defined networks. 2021 8th International Conference on Computer and Communication Engineering (ICCCE), 196–201."
+  },
+  {
+    id: 47,
+    term: 'Service Level Agreement (SLA)',
+    description: "A Service Level Agreement is a formal contract that defines the expected level of service quality and availability between a service provider and its customers, often specifying performance metrics and penalties for non-compliance.",
+    reference: "Karadsheh, L. (2012). Applying security policies and service level agreement to IaaS service model to enhance security and transition. Computers & Security, 31(3), 315–326. https://doi.org/10.1016/j.cose.2012.01.003"
+  },
+  {
+    id: 48,
+    term: 'Redundancy',
+    description: "Redundancy is the inclusion of extra components or resources in a system to ensure its availability and fault tolerance in case of failures.",
+    reference: "Mazzocchetti, F., Alcaide, S., Bas, F., Benedicte, P., Cabo, G., Chang, F., Fuentes, F., & Abella, J. (2022). SafeSoftDR: A library to enable software-based diverse redundancy for safety-critical tasks. In arXiv [cs.AR]. http://arxiv.org/abs/2210.00833"
+  },
+  {
+    id: 49,
+    term: 'Data Center',
+    description: "A Data Center is a facility that houses servers, networking equipment, and storage systems to support the processing and storage of data and applications.",
+    reference: "Singh, A., Ong, J., Agarwal, A., Anderson, G., Armistead, A., Bannon, R., Boving, S., Desai, G., Felderman, B., Germano, P., Kanagala, A., Provost, J., Simmons, J., Tanda, E., Wanderer, J., Hölzle, U., Stuart, S., & Vahdat, A. (2015). Jupiter rising: A decade of Clos topologies and centralized control in Google’s datacenter network. Computer Communication Review, 45(4), 183–197. https://doi.org/10.1145/2829988.2787508"
+  },
+  {
+    id: 50,
+    term: 'Web Application Firewall (WAF)',
+    description: "A Web Application Firewall is a security device or service that protects web applications from various online threats and attacks.",
+    reference: "Makhdoomi, A., Jan, N., Palak, & Goel, N. (2022). Conventional and next generation firewalls in network security and its applications. 2022 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), 964–969."
   }
 ];
 
